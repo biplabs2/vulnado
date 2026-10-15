@@ -1,0 +1,4 @@
+exclude:
+    global: # Al momento «global» e «code» si applicano solo all’analisi di tipo code ma in futuro «global» potrebbe venire esteso
+        # Escludi un singolo file.
+        -  src/main/java/com/scalesec/vulnado/Postgres.java
